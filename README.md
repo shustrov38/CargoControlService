@@ -45,5 +45,5 @@ create table sensor_values (
 
 ## requests
 
-- POST `localhost:8080/emulate` - emulate data and store it in the db. [Examples](CargoControlService/requestexamples/emulate/)
-- GET `localhost:8080/emulate/view-data` - get all stored data from db. [Examples](CargoControlService/requestexamples/wiewdata/)
+- POST `localhost:8080/emulate` - emulate data and store it in the db. [Examples](/requestexamples/emulate/)
+- GET `localhost:8080/emulate/view-data` - get all stored data from db. [Examples](/requestexamples/wiewdata/)
