@@ -2,8 +2,8 @@
 
 ## kafka topics
 
-- `EmulationData` pipeline between `SensorRequestManager` and `Postgre`
-- `EmulationData-ext` saving duplicate messages 
+- `EmulationData` - pipeline between `SensorRequestManager` and `Postgre`
+- `EmulationData-ext` - saving duplicate messages 
 
 ## postgresql table requirements
 
@@ -45,5 +45,5 @@ create table sensor_values (
 
 ## requests
 
-- POST `localhost:8080/emulate` - emulate data and store in db
-- GET `localhost:8080/emulate/view-data` - get all stored data from db
+- POST `localhost:8080/emulate` - emulate data and store it in the db. [Examples](CargoControlService/requestexamples/emulate/)
+- GET `localhost:8080/emulate/view-data` - get all stored data from db. [Examples](CargoControlService/requestexamples/wiewdata/)
