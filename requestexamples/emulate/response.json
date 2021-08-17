@@ -1,0 +1,23 @@
+{
+  "containers": [
+    {
+      "name": "Emulation_2#Container_1",
+      "state": [
+        {
+          "time": "2021-08-10T14:52:23Z",
+          "sensorValues": {
+            "temperature": 18.884501991759127,
+            "wetness": 16.154154495789626
+          }
+        },
+        {
+          "time": "2021-08-10T14:52:26Z",
+          "sensorValues": {
+            "temperature": 23.435123687858233,
+            "wetness": 17.981424468547416
+          }
+        }
+      ]
+    }
+  ]
+}
