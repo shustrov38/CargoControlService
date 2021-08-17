@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: cargo-control-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?reWriteBatchedInserts=true
+    username: admin
+    password: password
+  hibernate:
+    ddl-auto: create
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+kafka:
+  bootstrap-servers: localhost:9092
+  group-id: test-group
+  consumer-topic: EmulationData
+  producer-topic: EmulationData-ext
